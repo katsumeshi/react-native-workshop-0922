@@ -20,4 +20,6 @@ React Native初心者向けワークショップ
  
 ## 目次
 
+0) [今回のゴール](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/goal.md)
+
 1) [Expo、フォルダ、ファイルの役割](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/structure.md)
