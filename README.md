@@ -17,3 +17,9 @@ React Native初心者向けワークショップ
  - [React Native Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 
  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+ 
+## 目次
+
+0) [今回のお題：おみくじApp](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/goal.md)
+
+1) [Expo、フォルダ、ファイルの役割](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/structure.md)
