@@ -23,3 +23,7 @@ React Native初心者向けワークショップ
 0) [今回のお題：おみくじApp](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/goal.md)
 
 1) [Expo、フォルダ、ファイルの役割](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/structure.md)
+
+2) **おみくじ引く画面の作成**
+
+   2-1. テキストの変更とスタイリング(https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_1_text.md)
