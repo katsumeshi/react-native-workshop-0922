@@ -74,7 +74,7 @@ class HomeScreen extends React.Component {
   };
 
   render() {
-    const { value, image } = this.state.result;
+    const { image } = this.state.result;
     return (
       <View style={styles.container}>
         <Image style={{ width: 200, height: 50 }} resizeMode="contain" source={require("./assets/header.png")} />
@@ -110,7 +110,6 @@ class ResultScreen extends React.Component {
         <Image style={{ width: 200, height: 50 }} resizeMode="contain" source={require("./assets/header.png")} />
         <Text style={[styles.textStyle, { marginVertical: 20 }]}>結果一覧</Text>
         <FlatList
-          style={{ flex: 0.5 }}
           data={this.state.data}
           showsVerticalScrollIndicator={false}
           keyExtractor={item => `${item.id}`}
