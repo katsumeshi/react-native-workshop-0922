@@ -1,0 +1,9 @@
+{
+    // other settings
+    // formatting using eslint
+    // let editor format using prettier for all other files
+    "editor.formatOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.enable": false,
+}
