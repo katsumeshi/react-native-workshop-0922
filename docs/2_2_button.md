@@ -11,7 +11,7 @@
 3) 2で作成したボタンを押すと"大吉！！！"のアラートを表示([参考](https://facebook.github.io/react-native/docs/alert#alert))
 
 # 結果
-<kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss5.png" height="500"></kbd>
+<kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss4.png" height="500"></kbd>
 
 # 回答
 https://github.com/katsumeshi/react-native-workshop-0922/commit/c5fd726e28fa0de53da25d2096c4ac74b6ea9917
