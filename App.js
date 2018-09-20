@@ -34,7 +34,10 @@ const styles = StyleSheet.create({
     width: 200,
     height: 50
   },
-  resultImage: { width: 200, height: 300 },
+  resultImage: {
+    width: 200,
+    height: 300
+  },
   buttonContainer: {
     backgroundColor: "#3498db"
   },
