@@ -4,9 +4,9 @@
 
 2) ボタン”おみくじを引く”をTouchableOpacityとTextを使用して追加。([参考](https://facebook.github.io/react-native/docs/touchableopacity))
 
-TouchableOpacity 背景:#3498db
+   TouchableOpacity 背景:#3498db
 
-Text 文字サイズ:25 パディング水平:40 パディング垂直:10
+   Text 文字サイズ:25 パディング水平:40 パディング垂直:10
 
 3) 2で作成したボタンを押すと"大吉！！！"のアラートを表示([参考](https://facebook.github.io/react-native/docs/alert#alert))
 
