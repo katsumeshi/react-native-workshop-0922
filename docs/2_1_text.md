@@ -8,4 +8,4 @@
 <kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss3.png" height="500"></kbd>
 
 # 回答
-https://github.com/katsumeshi/react-native-workshop-0922/blob/e30e414e95263ac626da2dd7a80bbe73c9c73ab7/App.js
+https://github.com/katsumeshi/react-native-workshop-0922/commit/c6c7af6b90bb4ac3c2826cf8f679ee15ec126469
