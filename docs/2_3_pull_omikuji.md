@@ -11,7 +11,7 @@
 　　　setStateで再描画。([参考](https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-passing-an-object-or-a-function-in-setstate))中央のイメージがランダムで表示
    
 # 結果
-<kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss4.png" height="500"></kbd>
+<kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss5.png" height="500"></kbd>
 
 # 回答
 https://github.com/katsumeshi/react-native-workshop-0922/commit/c5fd726e28fa0de53da25d2096c4ac74b6ea9917
