@@ -29,3 +29,5 @@ React Native初心者向けワークショップ
    2-1. [イメージとテキスト](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_1_text.md)
    
    2-2. [ボタン](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_2_button.md)
+   
+   2-3. [おみくじを引く](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_3_pull_omikuji.md)
