@@ -27,3 +27,5 @@ React Native初心者向けワークショップ
 2) **おみくじ引く画面の作成**
 
    2-1. [イメージとテキスト](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_1_text.md)
+   
+   2-2. [ボタン](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_2_button.md)
