@@ -18,6 +18,9 @@ React Native初心者向けワークショップ
 
  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
  
+#### 画像
+  https://github.com/katsumeshi/react-native-workshop-0922/tree/master/assets
+ 
 ## 目次
 
 0) [今回のお題：おみくじApp](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/goal.md)
