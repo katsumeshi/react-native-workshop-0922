@@ -34,3 +34,7 @@ React Native初心者向けワークショップ
    2-2. [ボタン](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_2_button.md)
    
    2-3. [おみくじを引く](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/2_3_pull_omikuji.md)
+   
+3) **おみくじ結果一覧画面の作成**
+
+   3-1. [ナビゲーション](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_1_navigation.md)
