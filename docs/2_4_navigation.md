@@ -15,7 +15,6 @@ npm install --save react-navigation
 4) ヘッダータイトル（おみくじ）設定とヘッダーボタンを押すとおみくじ結果一覧に遷移させる。([参考](https://reactnavigation.org/docs/en/header-buttons.html))
 
 # 結果
-<kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss4.png" height="500"></kbd>
 <div>
 <kbd><img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss6.png" height="500"></kbd>
 <kbd><<img  src="https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/assets/ss7.png" height="500"></kbd>
