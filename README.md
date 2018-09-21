@@ -38,3 +38,5 @@ React Native初心者向けワークショップ
 3) **おみくじ結果一覧画面の作成**
 
    3-1. [ナビゲーション](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_1_navigation.md)
+   
+   3-2. [ナビゲーション間のデータ受け渡し](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_2_passing_data.md.md)
