@@ -4,19 +4,22 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, Button } from "react-n
 const options = [require("../assets/daikichi.png"), require("../assets/chukichi.png"), require("../assets/shokichi.png"), require("../assets/suekichi.png"), require("../assets/daikyo.png")];
 
 export default class Omikuji extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: "おみくじ",
-      headerRight: <Button onPress={() => navigation.navigate("Result")} title="結果一覧" color="black" />
-    };
-  };
-
+  resutls = [];
   state = {
     image: null
   };
 
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: "おみくじ",
+      headerRight: <Button onPress={() => navigation.navigate("Result", navigation.getParam("resutls"))} title="結果一覧" color="black" />
+    };
+  };
+
   handleOmikuji = () => {
     const index = Math.floor(Math.random() * options.length);
+    this.resutls.push({ id: `${this.resutls.length}`, result: index });
+    this.props.navigation.setParams({ resutls: this.resutls });
     this.setState({
       image: options[index]
     });
