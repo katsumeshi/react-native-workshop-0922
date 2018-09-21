@@ -42,3 +42,5 @@ React Native初心者向けワークショップ
    3-2. [ナビゲーション間のデータ受け渡し](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_2_passing_data.md)
    
    3-3. [フラットリスト](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_3_flatlist.md)
+   
+   3-4. [ネットワーク通信](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_4_network.md)
