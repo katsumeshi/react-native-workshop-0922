@@ -21,4 +21,4 @@ npm install --save react-navigation
 </div>
 
 # 回答
-https://github.com/katsumeshi/react-native-workshop-0922/commit/517e1af22b30f7ce46cf13e925ce24605cc48798
+https://github.com/katsumeshi/react-native-workshop-0922/commit/77cb290a6fe9c76a66ae3345d26c05ebf39fa33b
