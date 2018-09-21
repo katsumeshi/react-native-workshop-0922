@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button } from "react-native";
 import { IMAGE_OPTIONS } from "../constatns";
+import { postResult } from "../api";
 
 export default class Omikuji extends React.Component {
-  resutls = [];
   state = {
     image: null
   };
@@ -17,8 +17,7 @@ export default class Omikuji extends React.Component {
 
   handleOmikuji = () => {
     const index = Math.floor(Math.random() * IMAGE_OPTIONS.length);
-    this.resutls.push({ id: `${this.resutls.length}`, result: index });
-    this.props.navigation.setParams({ resutls: this.resutls });
+    postResult(index, "yuki");
     this.setState({
       image: IMAGE_OPTIONS[index]
     });
