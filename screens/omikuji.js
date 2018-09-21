@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button } from "react-native";
-
-const options = [require("../assets/daikichi.png"), require("../assets/chukichi.png"), require("../assets/shokichi.png"), require("../assets/suekichi.png"), require("../assets/daikyo.png")];
+import { IMAGE_OPTIONS } from "../constatns";
 
 export default class Omikuji extends React.Component {
   resutls = [];
@@ -17,11 +16,11 @@ export default class Omikuji extends React.Component {
   };
 
   handleOmikuji = () => {
-    const index = Math.floor(Math.random() * options.length);
+    const index = Math.floor(Math.random() * IMAGE_OPTIONS.length);
     this.resutls.push({ id: `${this.resutls.length}`, result: index });
     this.props.navigation.setParams({ resutls: this.resutls });
     this.setState({
-      image: options[index]
+      image: IMAGE_OPTIONS[index]
     });
   };
 
