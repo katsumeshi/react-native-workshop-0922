@@ -51,6 +51,8 @@ class B extends React.Component {
 ```
 class A extends React.Component {
 
+  state = { text: "" }
+  
   onPress = () => this.setState({ text: "aiueo" })
   
   render() {
