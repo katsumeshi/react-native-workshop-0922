@@ -30,3 +30,23 @@
   handlePress = () => { console.log("test")
   <Button onPress={handlePress} />
   ```
+
+## Reactのライフサイクル
+
+```
+constructor() {} コンポネントの初期化時に呼ばれる
+
+static getDerivedStateFromProps() {}　コンポネントに新しいpropsが渡された時に呼ばれる
+
+componentDidMount() {}　コンポネントがマウントされた時に呼ばれる
+
+shouldComponentUpdate() {}　パフォーマンス・チューニング時に触る return falseで描画をスキップ。
+
+getSnapshotBeforeUpdate() {}　描画前に呼ばれる
+
+componentDidUpdate() {}　描画後に呼ばれる
+
+render() {}　描画時に呼ばれる
+
+componentWillUnmount() {}　コンポネントがアンマウントされる時に呼ばれる
+```
