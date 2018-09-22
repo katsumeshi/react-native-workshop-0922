@@ -47,3 +47,10 @@ React Native初心者向けワークショップ
    3-3. [フラットリスト](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_3_flatlist.md)
    
    3-4. [ネットワーク通信](https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/3_4_network.md)
+   
+**最後まで終わったら**
+
+結果一覧画面のfetch時のローディングスピナーの実装。
+
+おみくじ画面の左上に名前入力のナビゲーションを作成。名前入力のテキストボックスを作成し、デバイスのローカルストレージに名前を保存。
+postリクエスト時にその名前を使用し、ハードコーディング部分をリプレイス。
