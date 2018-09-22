@@ -20,6 +20,9 @@ React Native初心者向けワークショップ
  
 #### 画像
   https://github.com/katsumeshi/react-native-workshop-0922/tree/master/assets
+  
+#### クイックリフェレンス
+  https://github.com/katsumeshi/react-native-workshop-0922/blob/master/docs/quick_reference.md
  
 ## 目次
 
