@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button } from "react-native";
-import { IMAGE_OPTIONS } from "../constatns";
-import { postResult } from "../api";
+import { IMAGE_OPTIONS } from "../src/constatns";
+import { postResult } from "../src/api";
 
 export default class Omikuji extends React.Component {
   state = {

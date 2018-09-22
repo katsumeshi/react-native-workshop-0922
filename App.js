@@ -1,5 +1,5 @@
-import Omikuji from "./screens/omikuji";
-import Result from "./screens/result";
+import Omikuji from "./src/screens/omikuji";
+import Result from "./src/screens/result";
 import { createStackNavigator } from "react-navigation";
 
 export default createStackNavigator({
