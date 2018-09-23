@@ -1,6 +1,6 @@
 # 設問
 
-1) width 200, hegith　300のイメージdaikichi.pngを追加
+1) width 200, height 300のイメージdaikichi.pngを追加
 
 2) ボタン”おみくじを引く”をTouchableOpacityとTextを使用して追加。([参考](https://facebook.github.io/react-native/docs/touchableopacity))
 
