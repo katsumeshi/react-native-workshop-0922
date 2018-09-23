@@ -5,21 +5,20 @@ export const getResults = async () => {
     const response = await fetch(API_URL);
     return response.json();
   } catch (e) {
-    alert(e);
+    console.log(e);
   }
 };
 
-export const postResult = async (result, name) => {
+export const postResult = (result, name) => {
   try {
-    const response = await fetch(API_URL, {
+    fetch(API_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ result, name })
     });
-    console.log(response.json());
   } catch (e) {
-    alert(e);
+    console.log(e);
   }
 };

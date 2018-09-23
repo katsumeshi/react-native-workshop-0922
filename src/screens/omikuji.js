@@ -1,27 +1,32 @@
 import React from "react";
 import { StyleSheet, Text, View, Image, TouchableOpacity, Button } from "react-native";
-import { IMAGE_OPTIONS } from "../constatns";
 import { postResult } from "../api";
+import { pullShuffledImage } from "../pull";
 
 export default class Omikuji extends React.Component {
-  state = {
-    image: null
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      image: null
+    };
+    this.handleOmikuji = this.handleOmikuji.bind(this);
+  }
 
   static navigationOptions = ({ navigation }) => {
+    const onPress = () => navigation.navigate("Result", navigation.getParam("resutls"));
     return {
       title: "おみくじ",
-      headerRight: <Button onPress={() => navigation.navigate("Result", navigation.getParam("resutls"))} title="結果一覧" color="black" />
+      headerRight: <Button onPress={onPress} title="結果一覧" color="black" />
     };
   };
 
-  handleOmikuji = () => {
-    const index = Math.floor(Math.random() * IMAGE_OPTIONS.length);
+  handleOmikuji() {
+    const { index, image } = pullShuffledImage();
     postResult(index, "yuki");
     this.setState({
-      image: IMAGE_OPTIONS[index]
+      image
     });
-  };
+  }
 
   render() {
     const { image } = this.state;
